@@ -1,0 +1,58 @@
+﻿<?xml version="1.0"?><lims-request version="1">
+  <login-request version="1">
+    <SAMPLE>
+      <create-by-workflow>
+        <workflow-name>Compatibility Sample</workflow-name>
+      </create-by-workflow>
+      <EXTERNAL_REFERENCE></EXTERNAL_REFERENCE>
+      <DESCRIPTION>asdf</DESCRIPTION>
+      <U_REQUESTED_BY>Matt</U_REQUESTED_BY>
+      <U_EMAIL_RESULTS_TO>matt@example.com</U_EMAIL_RESULTS_TO>
+      <U_HAZARD_INFO></U_HAZARD_INFO>
+      <U_CONTACTS_PROPELLANT>F</U_CONTACTS_PROPELLANT>
+      <U_RETURN_TO></U_RETURN_TO>
+      <U_CHEMICAL_TYPE></U_CHEMICAL_TYPE>
+      <U_ITEM_NUMBER>asdf</U_ITEM_NUMBER>
+      <U_ECL></U_ECL>
+      <U_MANUFACTURER>asdf</U_MANUFACTURER>
+      <U_MANUFACTURER_PART_NUMBER></U_MANUFACTURER_PART_NUMBER>
+      <U_MANUFACTURER_LOT_NUMBER></U_MANUFACTURER_LOT_NUMBER>
+      <U_MANUFACTURER_DESCRIPTION>asdf</U_MANUFACTURER_DESCRIPTION>
+      <U_MATERIAL_DESC>Part B</U_MATERIAL_DESC>
+      <U_SUPPLIER>asdf</U_SUPPLIER>
+      <U_SUPPLIER_PART_NUMBER></U_SUPPLIER_PART_NUMBER>
+      <U_SUPPLIER_LOT></U_SUPPLIER_LOT>
+      <U_WHERE_USED></U_WHERE_USED>
+      <U_REQUESTER_NOTES></U_REQUESTER_NOTES>
+      <ALIQUOT>
+        <create-by-workflow>
+          <workflow-name>Compatibility Aliquot</workflow-name>
+        </create-by-workflow>
+        <TEST>
+          <create-by-workflow>
+            <workflow-name>DSC - Something</workflow-name>
+          </create-by-workflow>
+          <DESCRIPTION></DESCRIPTION>
+          <U_PROGRAM>O123</U_PROGRAM>
+          <U_CHARGE_CODE>8D9</U_CHARGE_CODE>
+        </TEST>
+        <TEST>
+          <create-by-workflow>
+            <workflow-name>Cork</workflow-name>
+          </create-by-workflow>
+          <DESCRIPTION></DESCRIPTION>
+          <U_PROGRAM>D675</U_PROGRAM>
+          <U_CHARGE_CODE>TLU</U_CHARGE_CODE>
+        </TEST>
+        <TEST>
+          <create-by-workflow>
+            <workflow-name>2-Part Adhesive, Uncured</workflow-name>
+          </create-by-workflow>
+          <DESCRIPTION></DESCRIPTION>
+          <U_PROGRAM>G995</U_PROGRAM>
+          <U_CHARGE_CODE>TLU</U_CHARGE_CODE>
+        </TEST>
+      </ALIQUOT>
+    </SAMPLE>
+  </login-request>
+</lims-request>
